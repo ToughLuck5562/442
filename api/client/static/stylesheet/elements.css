@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+a {
+    color: #305cde;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.button {
+
+    margin: 3px;
+    padding: 6px;
+
+    width: fit-content;
+    height: fit-content;
+
+    background: none;
+    backdrop-filter: blur(100px);
+
+    box-shadow: 2px 3px 1px #fff;
+    border: 1.5px solid #fff;
+    border-radius: 5px;
+
+    font-family: 'Poppins';
+    color: #fff;
+
+    cursor: pointer;
+    transition: all 188ms ease-in-out;
+}
+
+.button:hover {
+
+    box-shadow: 0.1px 0.1px 0.3px #fff;
+    transform: scale(1.1);
+    text-shadow: 0px 0px 15px #fff;
+
+}
+
+.form {
+
+    margin: 5px;
+    padding: 15px;
+
+    background: none;
+    backdrop-filter: blur(40px);
+    
+    border: 1.5px solid #fff;
+    border-radius: 6px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+
+    text-align: center;
+    text-shadow: 1px 2px 9px #fff;
+
+}
+
+.form input {
+
+    margin: 2px;
+    padding: 6px;
+
+    background: none;
+    
+    outline: none;
+    border: none;
+    border-bottom: 1.5px solid #fff;
+
+    font-family: 'Poppins';
+    color: #fff;
+
+}
+
+.form input::placeholder {
+    
+    font-family: 'Poppins';
+    color: #fff;
+
+}

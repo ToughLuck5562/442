@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/elements.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/register.css') }}">
+    <title>Bit NSFW Register</title>
+</head>
+<body>
+    
+    <div class="title">
+        <h1>BitNSFW Register</h1>
+        <ul>
+            <h3>Why you should register?</h3>
+            <li>Chance to win giveaways! 🤑</li>
+            <li>You will be given free HOT NSFW! 🔥</li>
+        </ul>
+    </div>
+
+    <form class='form' id="register-form" method="POST" action="/register-account">
+        <h2>Discord Username 🔽</h2>
+        <input name="Username" id="register-form-username-input" placeholder="Discord Username..." required>
+        <p>[WARNING]: Read the <a href="/terms">TERMS</a> before registering!</p>
+        <button class="button" type="submit">Register!</button>
+    </form>
+
+</body>
+</html>

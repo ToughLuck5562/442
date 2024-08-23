@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+    background-image: url('https://media.discordapp.net/attachments/1267191777677283380/1276550284960731157/Untitled_design_3.png?ex=66c9ef99&is=66c89e19&hm=f2e5bfece684af08f31e2d73cc4dab74657df243336382c02769dd3b465a88fa&=&format=webp&quality=lossless&width=550&height=275');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000; 
+
+    width: 100%;
+    min-height: 100vh;
+    height: fit-content;
+
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.title {
+    margin: 50px 0px;
+    padding: 0;
+
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+    text-align: center;
+    text-shadow: 3px 3px 15px #fff;
+}
+
+.annoucements-ul {
+    margin: 15px 25px;
+
+    width: 100%;
+    max-width: 600px;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+
+    text-align: center;
+    text-shadow: 3px 3px 15px #fff;
+
+    list-style-type: disc;
+}
+
+.annoucements-ul li {
+    margin: 15px 7px;
+
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+}
+
+.annoucements-ul li img {
+    margin: 5px;
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: url('https://cdn.discordapp.com/attachments/1267191777677283380/1276561176175579210/Untitled_design_5.png?ex=66c9f9bd&is=66c8a83d&hm=ab59772c0cb01f1a4c555521f479b8f3f441a3734c74a2f36598a172239a130f&');
+        background-size: 100% 100%;
+        padding: 20px;
+    }
+    .annoucements-ul {
+        margin: 10px;
+    }
+
+    .annoucements-ul li img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+}
